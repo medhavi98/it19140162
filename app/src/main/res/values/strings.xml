@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account">Account</string>
+    <string name="home">Home</string>
+    <string name="order">Orders</string>
+    <string name="wish">Wish List</string>
+    <string name="myOrder">My Orders</string>
+    <string name="myOrderText">Your order is confirmed</string>
+    <string name="myOrderText2">The Merchant of Venice</string>
+    <string name="wait_for_confirmation">Wait for confirmation</string>
+    <string name="guruGeethaya">Guru Geethaya</string>
+    <string name="MadolDuuwa">Madol Duuwa</string>
+    <string name="goToCart">Go To Cart</string>
+    <string name="cart">Cart</string>
+</resources>
