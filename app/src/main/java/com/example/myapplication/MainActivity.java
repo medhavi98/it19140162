@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
 
-                case R.id.wishlist:
-                    fragment = new WishListFragment();
+                case R.id.cart:
+                    fragment = new Fragment_Cart();
                     break;
 
             }

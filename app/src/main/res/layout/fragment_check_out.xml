@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/checkoutFrame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".checkOutFragment">
@@ -185,7 +186,7 @@
             app:layout_constraintVertical_bias="0.174" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/BillingBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/cardview_light_background"

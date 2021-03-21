@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cartFrame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment_Cart">
@@ -99,7 +100,7 @@
                 app:layout_constraintHorizontal_bias="0.876"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.336" />
+                app:layout_constraintVertical_bias="0.325" />
 
             <TextView
                 android:id="@+id/price3"
@@ -182,13 +183,13 @@
 
             <Button
                 android:id="@+id/checkOutBtn"
-                android:layout_width="153dp"
-                android:layout_height="49dp"
+                android:layout_width="150dp"
+                android:layout_height="39dp"
                 android:background="@color/colorAccent"
                 android:text="@string/checkOutBtn"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/background_light"
                 android:textColorHint="@color/colorAccent"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.937"
@@ -301,17 +302,17 @@
 
             <TextView
                 android:id="@+id/cart2"
-                android:layout_width="109dp"
-                android:layout_height="33dp"
+                android:layout_width="135dp"
+                android:layout_height="34dp"
                 android:text="@string/cart2"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintHorizontal_bias="0.532"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.086" />
+                app:layout_constraintVertical_bias="0.084" />
 
             <CheckBox
                 android:id="@+id/checkBox2"
